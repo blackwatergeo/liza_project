@@ -228,7 +228,7 @@ div.attribute-custom-style{
 /***************************************************************************
 classes can be used in the html
 ****************************************************************************/
-.jimu-main-background{background-color: #485566;}
+.jimu-main-background{background-color: transparent;}
 .jimu-main-background-2{background-color: white;}
 
 .jimu-ellipsis{
@@ -3141,7 +3141,8 @@ html.hr .jimu-filter .allExpsBox > div{
   color: white;
   height: 35px;
   width: 100%;
-  background-color: #485566;
+  background-image: none;
+  background-color: #ccdbe2;    
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
   position: relative;
 }
