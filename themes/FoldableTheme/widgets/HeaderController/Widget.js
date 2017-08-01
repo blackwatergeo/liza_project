@@ -787,7 +787,7 @@ define([
       _createIconNode: function(iconConfig) {
         var node, iconUrl;
         if (iconConfig.name === '__more') {
-          iconUrl = this.folderUrl + 'images/more_icon.png';
+          iconUrl = this.folderUrl + 'images/more_icon.svg';
         } else {
           iconUrl = iconConfig.icon;
         }
